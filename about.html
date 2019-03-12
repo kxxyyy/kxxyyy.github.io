@@ -119,6 +119,7 @@ header-img: "img/post-bg-rwd.jpg"
     //id: 'about',
     //id: decodeURI(location.pathname),
     id: md5(location.pathname),
+    id: decodeURI(location.pathname),
     });
     gitalk.render('gitalk-container');
 </script>
