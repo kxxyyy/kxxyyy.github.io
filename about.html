@@ -117,7 +117,7 @@ header-img: "img/post-bg-rwd.jpg"
     distractionFreeMode: {{site.gitalk.distractionFreeMode}},
     //id: 'about',
     //id: decodeURI(location.pathname),
-    id: md5(title),
+    id: md5(this.data.content.title),
     });
     gitalk.render('gitalk-container');
 </script>
