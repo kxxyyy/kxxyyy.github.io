@@ -117,6 +117,7 @@ header-img: "img/post-bg-rwd.jpg"
     admin: ['{{site.gitalk.admin}}'],
     distractionFreeMode: {{site.gitalk.distractionFreeMode}},
     id: 'about',
+    id: md5({{site.title}}),
     });
     gitalk.render('gitalk-container');
 </script>
